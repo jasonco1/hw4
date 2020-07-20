@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header, main, nav, footer {
+    text-align: center;
+}
+footer{
+    color:white;
+    font-size: 0.8em;
+}
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover { 
+    border-bottom:2px gray solid;
+    font-size: 2em;
+    transition: .9s;
+}
+ main {
+        display: flex;
+        justify-content: center;
+    }
+ul {
+    width:500px;
+    margin: 0 auto;
+    text-align: left;
+}
+.actions {
+    color: #C0D1DF;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+    text-shadow:2px 2px gray;
+}
+h2{
+    font-size: 2em;
+}
+.links{
+    font-size: 1.8em;
+}
+figcaption {
+  background-color: gray;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+    

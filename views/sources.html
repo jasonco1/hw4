@@ -1,0 +1,28 @@
+<%- include('partials/header.ejs') %>
+            <main>
+                <div id="content">
+                    <h2><strong>If you would like to learn more about Elephants<br>
+                    and how you can help visit any of the following links!</strong></h2>
+                    <br>
+                    
+                    <div id="links">
+                    <a href="https://www.worldwildlife.org/species/elephant#threats"><span class="links">WorldWildLife(WWF)</span></a><br>
+                    <a href="https://www.refusetoride.org"><span class="links">Refuse to Ride</span></a><br>
+                    <a href="https://www.nationalgeographic.com/animals/mammals/a/african-elephant//"><span class="links">National Geographic</span></a><br>
+                    </div>
+                    <br>
+                    <h3>Honorable Donations</h3>
+                    <!--Faker Data-->
+                    
+                    <%= fakeName %> donated <%= fakeAmount %> on  <%= pastDate %> to help elephants! <br>
+                    <%= secondName %> donated <%= secondAmount %> on  <%= secondPastDate %> to help elephants!
+                
+                    <h3>If you would like to also donate to help check the links above.</h3>
+                    
+                    <figure>
+                    <img id="indexPic" src="img/elephant3.jpg" alt="elephant" width="1000">
+                    <figcaption>Image by Patrick Fransoo from Pixabay </figcaption>
+                    </figure> 
+                </div>
+            </main>
+<%- include('partials/footer.ejs') %>
